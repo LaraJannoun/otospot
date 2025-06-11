@@ -1,0 +1,46 @@
+version: "3"
+services:
+  # PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: DockerFile
+    image: otospot
+    container_name: otospot-app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    volumes:
+      - ./:/var/www
+    networks:
+      - project_network
+
+  # Nginx Service
+  otospotnginx:
+    image: nginx:latest
+    container_name: otospot-nginx
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.otospotnginx.entrypoints=websecure"
+      - "traefik.http.routers.otospotnginx.rule=Host(`otospot.op1.tedmob.com`)"
+      - "traefik.http.routers.otospotnginx.service=otospotnginx"
+      - "traefik.http.services.otospotnginx.loadbalancer.server.port=80"
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - project_network
+      - proxy
+    depends_on:
+      - app
+
+# Docker Networks
+networks:
+  project_network:
+    driver: bridge
+  proxy:
+    external: true

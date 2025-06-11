@@ -1,0 +1,23 @@
+<?php
+return [
+    'rights_reserved' => 'All rights reserved',
+    'copyright' => 'Copyright',
+    'opening_hours' => 'OPENING HOURS 9:00 AM TILL 11:00 PM',
+    'home' => 'Home',
+    'explore' => 'Explore',
+    'find_us' => 'Find Us',
+    'contact_us' => 'Contact Us',
+    'our_features' => 'Our Features',
+    'why_otospot' => 'Why Otospot',
+    'testimonials' => 'Testimonials',
+    'get_in_touch' => 'Get In Touch',
+    'dine' => 'Dine',
+    'shop' => 'Shop',
+    'play' => 'Play',
+    'unwind' => 'Unwind',
+    'location' => 'Al Dafra, Western Region',
+    'see_you_in' => 'See you at',
+    'al_mugheirah' => 'Otospot',
+    'visit_us' => 'VISIT US',
+    'mamsha' => 'Mamsha Otospot',
+];

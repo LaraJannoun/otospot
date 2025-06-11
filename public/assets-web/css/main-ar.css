@@ -1,0 +1,127 @@
+html,
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'DINNextLTArabicBlack' !important;
+}
+
+.font-weight-regular,
+.font-weight-light,
+.font-weight-bold,
+.font-weight-extrabold,
+.font-weight-semibold,
+b,
+strong{
+    font-family: 'DINNextLTArabicBlack' !important;
+}
+
+.margin-left-minus-10{
+    margin-right: -67px !important;
+}
+
+.margin-right-minus-10{
+    margin-left: -67px !important;
+}
+
+.intro-styling{
+    right: -43px;
+    left: unset;
+}
+
+.image-height-dolphin {
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+}
+
+/* .pos-abs-1{
+    right: -100px;
+    left: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+} */
+
+/* .pos-abs-2{
+    left: -300px;
+    right: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+} */
+
+.pos-abs-3{
+    left: 0;
+    right: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+}
+
+.pos-abs-4{
+    right: -180px;
+    left: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+}
+
+.pos-abs-5{
+    left: -50px;
+    right: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+}
+
+.pos-abs-6{
+    left: -130px;
+    right: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+}
+
+.pos-abs-7{
+    right: -70px;
+    left: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+}
+
+/* .pos-abs-8{
+    left: -4%;
+    right: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+}
+
+.pos-abs-9{
+    right: -5%;    
+    left: unset;
+    -webkit-transform: scaleX(-1)!important;
+    transform: scaleX(-1)!important;
+}
+
+.pos-abs-10{
+    right: -6%;
+    left: unset;
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1) !important;
+} */
+
+.m-3-start{
+    margin-right: 1rem!important;
+    margin-left: 0 !important;
+}
+@media (max-width: 575px) {
+    .language-on-mobile li{
+        display: inline;
+        width: auto;
+        float: left !important;
+    }
+    
+    .margin-left-minus-10{
+        margin-right: unset !important;
+        margin-left: unset !important;
+    }
+
+    .margin-right-minus-10{
+        margin-left: unset !important;
+        margin-right: unset !important;
+    }
+
+}
