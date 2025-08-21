@@ -86,7 +86,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            <div class="navbar-collapse collapse w-100 mobile-bg-white" id="collapsingNavbar3">
                 <ul class="navbar-nav w-100 p-0">
                     <li class="nav-item hvr-grow">
                         <a class="nav-link" href="#top">{{trans('messages.home')}}</a>

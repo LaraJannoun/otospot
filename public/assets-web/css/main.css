@@ -1305,6 +1305,10 @@ textarea{
         height: 100px;
         top: 190px;
     }
+    
+    .mobile-bg-white{
+        background: white;
+    }
 
     .pos-abs-ios{
         bottom: 20%;
