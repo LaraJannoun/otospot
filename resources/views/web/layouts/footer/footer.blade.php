@@ -7,17 +7,17 @@
             <div class="col-lg-4 text-center">
                 <img class="footer-icon" src="{{ asset('assets-web/images/mobile.svg') }}" alt="otospot" />
                 <p class="text-white text-center pb-2 pt-4 font-weight-bold">Customer Support</p>
-                <p class="text-white pb-4 text-center font-weight-extrabold">+961 3 025 256</p>
+                <p class="text-white pb-4 text-center font-weight-extrabold">+961 70 976 400</p>
             </div>
             <div class="col-lg-4 text-center">
                 <img class="footer-icon" src="{{ asset('assets-web/images/pin.svg') }}" alt="otospot" />
-                <p class="text-white text-center pb-2 pt-4 font-weight-bold">3+</p>
-                <p class="text-white pb-4 text-center font-weight-extrabold">Insurance Partners</p>
+                <p class="text-white text-center pb-2 pt-4 font-weight-bold">Location</p>
+                <p class="text-white pb-4 text-center font-weight-extrabold">Saifi Tower, 8th Floor, Saifi, Beirut, Lebanon</p>
             </div>
             <div class="col-lg-4 text-center">
                 <img class="footer-icon" src="{{ asset('assets-web/images/envelope.svg') }}" alt="otospot" />
-                <p class="text-white text-center pb-2 pt-4 font-weight-bold">2000+</p>
-                <p class="text-white pb-4 text-center font-weight-extrabold">Maintenance Specialist in Specific Car Brands</p>
+                <p class="text-white text-center pb-2 pt-4 font-weight-bold">Email Address</p>
+                <p class="text-white pb-4 text-center font-weight-extrabold">Support@otospot.app</p>
             </div>
         </div>
         <div class="row pb-5" >
@@ -90,11 +90,11 @@
                     </li>
                     {{-- @endif --}}
                     {{-- @if($twitter_link) --}}
-                    <li class="list-inline-item mx-2">
+                    {{-- <li class="list-inline-item mx-2">
                         <a href="{{$twitter_link->link?? null}}" target="_blank">
                             <img class="mr-2 image-15" src="{{$twitter_link->icon?? null}}" alt="twitter">
                         </a>
-                    </li>
+                    </li> --}}
                     {{-- @endif --}}
                     {{-- @if($facebook_link) --}}
                     <li class="list-inline-item mx-2">
