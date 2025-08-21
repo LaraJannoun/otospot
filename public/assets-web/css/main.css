@@ -1311,12 +1311,12 @@ textarea{
     }
 
     .pos-abs-ios{
-        bottom: 20%;
+        bottom: 25%;
         width: 15%;
     }
 
     .pos-abs-android{
-        bottom: 20%;
+        bottom: 25%;
         width: 15%;
         right: 30%;
     }
