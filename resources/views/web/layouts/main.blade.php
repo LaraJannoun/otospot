@@ -58,7 +58,7 @@
 	{{-- Pushed StyleSheets --}}
 	@stack('stylesheets')
 	{{-- Main CSS --}}
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets-web/css/main.css') }}?v={{ env('CSS_MAIN') }}"/>
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets-web/css/main.css') }}"/>
 	@if($locale == 'ar')
     <link rel="stylesheet" type="text/css" href="{{ asset('assets-web/css/main-ar.css') }}?v={{ env('CSS_MAIN') }}" />
     @endif

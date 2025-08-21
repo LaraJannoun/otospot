@@ -20,6 +20,11 @@
         </div>
         <img class="pos-abs-1" src="{{ asset('assets-web/images/app1.svg') }}" alt="Otospot"/>
         <img class="pos-abs-2" src="{{ asset('assets-web/images/app2.svg') }}" alt="Otospot"/>
+        <img class="pos-abs-ios" src="{{ asset('assets-web/images/ios.svg') }}" alt="Otospot"/>
+        <img class="pos-abs-android" src="{{ asset('assets-web/images/android.svg') }}" alt="Otospot"/>
+
+        <!-- <img class="" src="{{ asset('assets-web/images/drive.svg') }}" alt="Otospot"/> -->
+
         <img class="pos-abs-drive" src="{{ asset('assets-web/images/drive.svg') }}" alt="Otospot"/>
         <img class="pos-abs-smarter" src="{{ asset('assets-web/images/smarter.svg') }}" alt="Otospot"/>
         {{-- <div class="position-relative">
