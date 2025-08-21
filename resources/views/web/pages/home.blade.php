@@ -40,8 +40,8 @@
     <div id="our_features">
         <div id="intro" class="container-fluid pt-lg-5 position-relative">
             <h1 class="text-center pt-2 pb-4 font-weight-bold">OTOSPOT Features</h1>
-            <div class="row py-lg-5 @if($locale == 'en') justify-content-between @else justify-content-end @endif">
-                <div class="col-lg-5 offset-lg-1 p-right-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}">
+            <div class="row py-lg-5">
+                <div class="col-lg-4 offset-lg-1 p-right-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}">
                     <img class="features-icon hvr-grow aos-init aos-animate mb-3" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_1}}" src="{{ asset('assets-web/images/icon-1.svg') }}" alt="otospot" />
 
                     <p class="h2 font-weight-bold">{{$about->title}}</p>
@@ -49,7 +49,7 @@
                     <div class="mb-3 mt-3"><h4>{!!$about->text!!}</h4></div>
                     {{-- <img class="image-height-dolphin hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_1}}" src="{{ asset('assets-web/images/dolphin.svg') }}" alt="Almugheirah dolphin" /> --}}
                 </div>
-                <div class="col-lg-6 col-media-query margin-right-minus-10 pt-lg-0 pt-3">
+                <div class="col-lg-4 offset-lg-1 col-media-query pt-lg-0 pt-3">
                     <div class="slider-about-images-container aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
                         @foreach ($about->images as $key => $slider)
                             @include('web.components.slider-object-side', ['image_order' => $key, 'image_source'=>$slider->image, 'text' => 0])
@@ -61,15 +61,15 @@
         <div id="first" class="position-relative">
             {{-- <img class="pos-abs-3 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_2}}" src="{{ asset('assets-web/images/plant-2.svg') }}" alt="Otospot plant"/> --}}
             <div  class="container-fluid pt-5 ">
-                <div class="row py-lg-5 justify-content-between">
-                    <div class="col-lg-6 col-media-query margin-left-minus-10 order-2 order-lg-1 pt-lg-0 pt-3">
+                <div class="row py-lg-5">
+                    <div class="col-lg-4 offset-lg-1 col-media-query order-2 order-lg-1 pt-lg-0 pt-3">
                         <div class="slider-about-images-container aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}">
                             @foreach ($dine->images as $key => $slider)
                                 @include('web.components.slider-object-side', ['image_order' => $key, 'image_source'=>$slider->image, 'text' => 0])
                             @endforeach
                         </div>
                     </div>
-                    <div class="@if($locale == 'en') col-lg-6 @else col-lg-5 offset-lg-1 @endif pt-lg-5 p-left-2 order-1 order-lg-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
+                    <div class="col-lg-4 offset-lg-1 pt-lg-5 p-left-2 order-1 order-lg-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
                         <img class="features-icon hvr-grow aos-init aos-animate mb-3" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_1}}" src="{{ asset('assets-web/images/icon-2.svg') }}" alt="otospot" />
 
                         <p class="h2 font-weight-bold">{{$dine->title}}</p>
@@ -83,15 +83,15 @@
             {{-- <img class="pos-abs-4 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_1}}" src="{{ asset('assets-web/images/pink-plant.svg') }}" alt="Otospot pink plant"/> --}}
             {{-- <img class="pos-abs-5 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_2}}" src="{{ asset('assets-web/images/orange-plant.svg') }}" alt="Otospot orange plant" /> --}}
             <div class="container-fluid pt-5 position-relative">
-                <div class="row py-lg-5 @if($locale == 'en') justify-content-between @else justify-content-end @endif">
-                    <div class="col-lg-5 offset-lg-1 pt-lg-5 p-right-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}">
+                <div class="row py-lg-5">
+                    <div class="col-lg-4 offset-lg-1 pt-lg-5 p-right-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}">
                         <img class="features-icon hvr-grow aos-init aos-animate mb-3" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_1}}" src="{{ asset('assets-web/images/icon-3.svg') }}" alt="otospot" />
 
                         <p class="h2 font-weight-bold">{{$shop->title}}</p>
                         @if($shop->subtitle) <p class="h1 font-weight-extrabold">{{$shop->subtitle}}</p>@endif
                         <div class="mt-3">{!!$shop->text!!}</div>
                     </div>
-                    <div class="col-lg-6 col-media-query margin-right-minus-10 pt-lg-0 pt-3 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
+                    <div class="col-lg-4 offset-lg-1 col-media-query pt-lg-0 pt-3 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
                         <div class="slider-about-images-container">
                             @foreach ($shop->images as $key => $slider)
                                 @include('web.components.slider-object-side', ['image_order' => $key, 'image_source'=>$slider->image, 'text' => 0])
@@ -104,15 +104,15 @@
         <div id="third" class="position-relative">
             {{-- <img class="pos-abs-6 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_2}}" src="{{ asset('assets-web/images/green-plant.svg') }}" alt="Otospot Green plant"/> --}}
             <div class="container-fluid pt-5 position-relative">
-                <div class="row py-lg-5 justify-content-between">
-                    <div class="col-lg-6  col-media-query margin-left-minus-10 order-2 order-lg-1 pt-lg-0 pt-3">
+                <div class="row py-lg-5">
+                    <div class="col-lg-4 offset-lg-1 col-media-query order-2 order-lg-1 pt-lg-0 pt-3">
                         <div class="slider-about-images-container aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}">
                             @foreach ($play->images as $key => $slider)
                                 @include('web.components.slider-object-side', ['image_order' => $key, 'image_source'=>$slider->image, 'text' => 0])
                             @endforeach
                         </div>
                     </div>
-                    <div class="@if($locale == 'en') col-lg-6 @else col-lg-5 offset-lg-1 @endif pt-lg-5 p-left-2 order-1 order-lg-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
+                    <div class="col-lg-4 offset-lg-1 pt-lg-5 p-left-2 order-1 order-lg-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
                         <img class="features-icon hvr-grow aos-init aos-animate mb-3" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_1}}" src="{{ asset('assets-web/images/icon-4.svg') }}" alt="otospot" />
 
                         <p class="h2 font-weight-bold">{{$play->title}}</p>
@@ -126,13 +126,13 @@
     <div id="fourth" class="position-relative">
         <img class="pos-abs-7 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-up-{{$side_1}}" src="{{ asset('assets-web/images/yellow-plant.svg') }}" alt="Otospot yellow plant"/>
         <div class="container-fluid pt-5 position-relative">
-            <div class="row py-lg-5 @if($locale == 'en') justify-content-between @else justify-content-end @endif">
-                <div class="col-lg-5 offset-lg-1 pt-lg-5 p-right-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}" >
+            <div class="row py-lg-5">
+                <div class="col-lg-4 offset-lg-1 pt-lg-5 p-right-2 z-index-2 aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}" >
                     <p class="h2 font-weight-bold">{{$unwind->title}}</p>
                     @if($unwind->subtitle) <p class="h1 font-weight-extrabold">{{$unwind->subtitle}}</p>@endif
                     <div class="mt-3">{!!$unwind->text!!}</div>
                 </div>
-                <div class="col-lg-6 col-media-query margin-right-minus-10 pt-lg-0 pt-3">
+                <div class="col-lg-4 offset-lg-1 col-media-query margin-right-minus-10 pt-lg-0 pt-3">
                     <div class="slider-about-images-container aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}">
                         @foreach ($unwind->images as $key => $slider)
                             @include('web.components.slider-object-side', ['image_order' => $key, 'image_source'=>$slider->image, 'text' => 0])
