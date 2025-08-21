@@ -1299,32 +1299,35 @@ textarea{
     .pos-abs-drive {
         position: absolute;
         right: 10%;
-        width: 10%;
+        width: 15%;
         z-index: 9999999;
         bottom: -5%;
         height: 100px;
         top: 190px;
     }
-    
+
     .mobile-bg-white{
         background: white;
     }
 
     .pos-abs-ios{
         bottom: 20%;
+        width: 15%;
     }
 
     .pos-abs-android{
         bottom: 20%;
+        width: 15%;
+        right: 30%;
     }
 
     .pos-abs-smarter{
         position:absolute;
         right: 10%;
-        width: 20%;
+        width: 30%;
         z-index: 9999999;
         height: 100px;
-        top: 200px;
+        top: 203px;
     }
 
     .pos-abs-smarter-2{
@@ -1428,17 +1431,18 @@ textarea{
     }
     .pos-abs-1 {
         position: absolute;
-        left: 66px;
+        left: 62px;
         width: 130px;
-        height: 100px;
-        bottom: -51px;
+        height: 130px;
+        /*bottom: -51px;*/
+        top: 155px;
     }
     .pos-abs-2 {
         position: absolute;
-        right: -50px;
-        width: 100px;
-        height: 100px;
-        top: 180px;
+        left: 0;
+        width: 130px;
+        height: 130px;
+        top: 151px;
     }
     .pos-abs-3 {
         position: absolute;
