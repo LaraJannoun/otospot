@@ -9,7 +9,7 @@ return [
     'contact_us' => 'Contact Us',
     'our_features' => 'Our Features',
     'why_otospot' => 'Why Otospot',
-    'testimonials' => 'Testimonials',
+    'testimonials' => 'Services',
     'get_in_touch' => 'Get In Touch',
     'dine' => 'Dine',
     'shop' => 'Shop',

@@ -98,10 +98,10 @@
                         <a class="nav-link" href="#why_otospot">{{trans('messages.why_otospot')}}</a>
                     </li>
                     <li class="nav-item hvr-grow">
-                        <a class="nav-link" href="#testimonials">{{trans('messages.testimonials')}}</a>
+                        <a class="nav-link" href="#services">{{trans('messages.testimonials')}}</a>
                     </li>
                     <li class="nav-item hvr-grow">
-                        <a class="nav-link" href="#contact">{{trans('messages.get_in_touch')}}</a>
+                        <a class="nav-link" href="#footer">{{trans('messages.get_in_touch')}}</a>
                     </li>
                 </ul>
                 {{-- <ul class="nav navbar-nav ml-auto w-100 justify-content-end language-on-mobile">

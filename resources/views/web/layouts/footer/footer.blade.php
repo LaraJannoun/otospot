@@ -1,4 +1,4 @@
-<div class="position-relative footer">
+<div id="footer" class="position-relative footer">
     @php
     $side_1 = $locale =="en"  ? 'right' : 'Llft';
     @endphp
