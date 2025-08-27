@@ -692,12 +692,21 @@ textarea{
     bottom: -5%;
 }
 
-.pos-abs-smarter{
-    position:absolute;
+.pos-abs-drive{
+    position: absolute;
     right: 10%;
-    width: 20%;
+    width: 325px;
     z-index: 9999999;
-    bottom: -10%;
+    top: 95px;
+}
+
+.pos-abs-smarter{
+    position: absolute;
+    right: 10%;
+    width: 33%;
+    z-index: 9999999;
+    top: 200px;
+    bottom: unset;
 }
 
 .pos-abs-smarter-2{
@@ -723,13 +732,6 @@ textarea{
     bottom: 12%;
 }
 
-.pos-abs-drive{
-    position:absolute;
-    right: 10%;
-    width: 10%;
-    z-index: 9999999;
-    bottom: -5%;
-}
 
 .pos-abs-3{
     position: absolute;
