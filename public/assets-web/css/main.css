@@ -489,7 +489,7 @@ textarea{
 }
 
 .footer{
-    background-color: #1054FB;
+    background: linear-gradient(to bottom, #1054FB, #0030A4);
     color: white;
 }
 .secondary-color{
