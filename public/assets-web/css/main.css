@@ -1301,7 +1301,7 @@ textarea{
     .pos-abs-drive {
         position: absolute;
         right: 10%;
-        width: 15%;
+        width: 100px;
         z-index: 9999999;
         bottom: -5%;
         height: 100px;
@@ -1326,7 +1326,7 @@ textarea{
     .pos-abs-smarter{
         position:absolute;
         right: 10%;
-        width: 30%;
+        width: 180px;
         z-index: 9999999;
         height: 100px;
         top: 203px;
