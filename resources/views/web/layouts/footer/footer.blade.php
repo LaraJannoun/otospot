@@ -26,7 +26,7 @@
                     <div class="container py-5">
                         <div class="row py-lg-3 justify-content-center" >
                             <div class="col-lg-5 py-3 text-center">
-                                <img class="pos-abs-drive" src="{{ asset('assets-web/images/drive.svg') }}" alt="Otospot"/>
+                                <img class="pos-abs-drive-2" src="{{ asset('assets-web/images/drive.svg') }}" alt="Otospot"/>
                                 <img class="pos-abs-smarter-2" src="{{ asset('assets-web/images/smarter.svg') }}" alt="Otospot"/>
                                 {{-- <h5 class="text-white pb-4 text-center font-weight-extrabold">Drive</h5> --}}
                                 {{-- <h1 class="text-white pb-4 text-center font-weight-extrabold">Smarter</h1> --}}
