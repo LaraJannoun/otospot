@@ -150,9 +150,9 @@
     --}}
     </div>
      <div id="why_otospot" class="purple-bg-pos my-2">
-        {{-- <img class="pos-abs-8 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}" src="{{ asset('assets-web/images/tree.svg') }}" alt="Almugheirah tree"/> --}}
-        {{-- <img class="pos-abs-9 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}"  src="{{ asset('assets-web/images/green-path.svg') }}" alt="Almugheirah green path"/> --}}
-        {{-- <img class="pos-abs-10 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}" src="{{ asset('assets-web/images/red-flower.svg') }}" alt="Almugheirah red flower"/> --}}
+        {{-- <img class="pos-abs-8 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_2}}" src="{{ asset('assets-web/images/tree.svg') }}" alt="Otospot"/> --}}
+        {{-- <img class="pos-abs-9 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}"  src="{{ asset('assets-web/images/green-path.svg') }}" alt="Otospot"/> --}}
+        {{-- <img class="pos-abs-10 hvr-grow aos-init aos-animate" data-aos-offset="0" data-aos-duration="1000" data-aos="fade-{{$side_1}}" src="{{ asset('assets-web/images/red-flower.svg') }}" alt="Otospot"/> --}}
         <div class="container py-5">
             <div class="row py-lg-3 justify-content-center" >
                 <div class="col-lg-5 py-3 text-center">
