@@ -703,7 +703,7 @@ textarea{
 .pos-abs-drive-2{
     position: absolute;
     right: 10%;
-    width: 325px;
+    width: 300px;
     z-index: 9999999;
     top: 0;
 }
@@ -720,7 +720,7 @@ textarea{
 .pos-abs-smarter-2{
     position:absolute;
     right: 10%;
-    width: 425px;
+    width: 525px;
     z-index: 9999999;
     top: 82px;
 }
