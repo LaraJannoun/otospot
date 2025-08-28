@@ -11,8 +11,8 @@
     $side_1 = $locale =="en"  ? 'right' : 'left';
     $side_2 = $locale =="en"  ? 'left' : 'right';
     @endphp
-    <div class="container-fluid p-0">
-        <div id="slider" class="position-relative py-lg-5 py-2">
+    <div class="container-fluid p-0 position-relative">
+        <div id="slider" class="py-lg-5 py-2">
         {{-- <div id="slider" class="slider-top-images-container position-relative"> --}}
             @foreach ($sliders as $key => $slider)
                 @include('web.components.slider-object', ['image_order' => $key, 'image_source'=>$slider->image, 'text' => 1, 'image_main_title'=>$slider->title, 'image_main_subtitle'=>$slider->subtitle])
