@@ -27,3 +27,8 @@
     </div>
     </div>
 @endsection
+@push('script')
+<script>
+    $(".footer").hide();
+</script>
+@endpush
