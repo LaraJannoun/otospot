@@ -679,17 +679,21 @@ textarea{
 }
 
 .pos-abs-1{
-    position:absolute;
-    left: 25%;
-    width:25%;
-    bottom: -5%;
+    position: absolute;
+    left: 7%;
+    width: 300px;
+    bottom: 12%;
+    height: auto;
+    z-index: 200;
 }
 
 .pos-abs-2{
-    position:absolute;
-    left: 10%;
-    width: 20%;
-    bottom: -5%;
+    position: absolute;
+    left: 21%;
+    width: 373px;
+    bottom: 1%;
+    height: auto;
+    z-index: 100;
 }
 
 .pos-abs-drive{
@@ -1443,17 +1447,17 @@ textarea{
     }
     .pos-abs-1 {
         position: absolute;
-        left: 62px;
-        width: 150px;
-        height: 150px;
-        /*bottom: -51px;*/
-        top: 0;
+        left: 15px;
+        width: 85px;
+        height: auto;
+        /* bottom: -51px; */
+        top: -14px;
     }
     .pos-abs-2 {
         position: absolute;
-        left: 0;
-        width: 150px;
-        height: 150px;
+        left: 87px;
+        width: 105px;
+        height: auto;
         top: 0;
     }
     .pos-abs-3 {

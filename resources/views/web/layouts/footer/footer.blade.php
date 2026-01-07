@@ -4,17 +4,22 @@
     @endphp
     <div class="container-md">
         <div class="row py-5 justify-content-center" >
-            <div class="col-lg-4 text-center">
-                <img class="footer-icon" src="{{ asset('assets-web/images/mobile.svg') }}" alt="otospot" />
-                <p class="text-white text-center pb-2 pt-4 font-weight-bold">Customer Support</p>
-                <p class="text-white pb-4 text-center font-weight-extrabold">+961 70 976 400</p>
+            <div class="col-lg-3 text-center">
+                <img class="footer-icon" src="{{ asset('assets-web/images/whatsapp_1.svg') }}" alt="otospot" />
+                <p class="text-white text-center pb-2 pt-4 font-weight-bold">Garages & Auto Shops</p>
+                <p class="text-white pb-4 text-center font-weight-extrabold">+961 78 779 260</p>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-3 text-center">
+                <img class="footer-icon" src="{{ asset('assets-web/images/whatsapp_1.svg') }}" alt="otospot" />
+                <p class="text-white text-center pb-2 pt-4 font-weight-bold">Insurance Queries</p>
+                <p class="text-white pb-4 text-center font-weight-extrabold">+961 78 779 250</p>
+            </div>
+            <div class="col-lg-3 text-center">
                 <img class="footer-icon" src="{{ asset('assets-web/images/pin.svg') }}" alt="otospot" />
                 <p class="text-white text-center pb-2 pt-4 font-weight-bold">Location</p>
                 <p class="text-white pb-4 text-center font-weight-extrabold">Saifi Tower, 8th Floor, Saifi, Beirut, Lebanon</p>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-3 text-center">
                 <img class="footer-icon" src="{{ asset('assets-web/images/envelope.svg') }}" alt="otospot" />
                 <p class="text-white text-center pb-2 pt-4 font-weight-bold">Email Address</p>
                 <p class="text-white pb-4 text-center font-weight-extrabold">Support@otospot.app</p>
@@ -112,9 +117,9 @@
             <div class="col-lg-4">
                 <p class="text-center font-15" style="vertical-align: middle;">
                 @if($locale == "ar")
-                {{trans('messages.rights_reserved')}} {{date("Y")}}
+                {{trans('messages.rights_reserved')}} © {{date("Y")}}
                    @else
-                {{date("Y")}}, {{trans('messages.rights_reserved')}}
+                © {{date("Y")}}, {{trans('messages.rights_reserved')}}
                 @endif
                 </p>
             </div>

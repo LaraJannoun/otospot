@@ -18,8 +18,8 @@
                 @include('web.components.slider-object', ['image_order' => $key, 'image_source'=>$slider->image, 'text' => 1, 'image_main_title'=>$slider->title, 'image_main_subtitle'=>$slider->subtitle])
             @endforeach
         </div>
-        <img class="pos-abs-1" src="{{ asset('assets-web/images/app1.svg') }}" alt="Otospot"/>
-        <img class="pos-abs-2" src="{{ asset('assets-web/images/app2.svg') }}" alt="Otospot"/>
+        <img class="pos-abs-1" src="{{ asset('assets-web/images/slide1.png') }}" alt="Otospot"/>
+        <img class="pos-abs-2" src="{{ asset('assets-web/images/slide2.png') }}" alt="Otospot"/>
         <img class="pos-abs-ios" src="{{ asset('assets-web/images/ios.svg') }}" alt="Otospot"/>
         <img class="pos-abs-android" src="{{ asset('assets-web/images/android.svg') }}" alt="Otospot"/>
 
