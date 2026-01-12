@@ -1318,15 +1318,15 @@ textarea{
         z-index: 9999999;
         bottom: -5%;
         height: 100px;
-        top: 50px;
+        top: 30px;
     }
     .pos-abs-smarter{
         position:absolute;
         right: 10%;
-        width: 180px;
+        width: 140px;
         z-index: 9999999;
         height: 100px;
-        top: 80px;
+        top: 60px;
     }
 
     .pos-abs-smarter-2{
@@ -1451,14 +1451,14 @@ textarea{
         width: 85px;
         height: auto;
         /* bottom: -51px; */
-        top: -14px;
+        top: -25px;
     }
     .pos-abs-2 {
         position: absolute;
         left: 87px;
         width: 105px;
         height: auto;
-        top: 0;
+        top: -25px;
     }
     .pos-abs-3 {
         position: absolute;
